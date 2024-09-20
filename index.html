@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>My Docs</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/fontawesome.min.css" rel="stylesheet">
+        <link href="css/brands.min.css" rel="stylesheet">
+        <link href="css/solid.min.css" rel="stylesheet">
+        <link href="css/v4-font-face.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">My Docs</a>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#welcome-to-mkdocs" class="nav-link">Welcome to MkDocs</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#commands" class="nav-link">Commands</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#project-layout" class="nav-link">Project layout</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-bs-level="1"><a href="#documentation-de-tp-introduction-a-python" class="nav-link">Documentation de TP : Introduction à Python</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#introduction" class="nav-link">Introduction</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#installation-de-python" class="nav-link">Installation de Python</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#votre-premier-programme-python" class="nav-link">Votre premier programme Python</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#types-de-donnees" class="nav-link">Types de données</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#structures-de-controle" class="nav-link">Structures de contrôle</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#fonctions" class="nav-link">Fonctions</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#conclusion" class="nav-link">Conclusion</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#ressources-supplementaires" class="nav-link">Ressources supplémentaires</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="welcome-to-mkdocs">Welcome to MkDocs</h1>
+<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
+<h2 id="commands">Commands</h2>
+<ul>
+<li><code>mkdocs new [dir-name]</code> - Create a new project.</li>
+<li><code>mkdocs serve</code> - Start the live-reloading docs server.</li>
+<li><code>mkdocs build</code> - Build the documentation site.</li>
+<li><code>mkdocs -h</code> - Print help message and exit.</li>
+</ul>
+<h2 id="project-layout">Project layout</h2>
+<pre><code>mkdocs.yml    # The configuration file.
+docs/
+    index.md  # The documentation homepage.
+    ...       # Other markdown pages, images and other files.
+</code></pre>
+<h1 id="documentation-de-tp-introduction-a-python">Documentation de TP : Introduction à Python</h1>
+<h2 id="introduction">Introduction</h2>
+<p>Python est un langage de programmation interprété, de haut niveau et polyvalent. Il est largement utilisé dans le développement web, l'analyse de données, l'intelligence artificielle et bien plus encore.</p>
+<h2 id="installation-de-python">Installation de Python</h2>
+<p>Pour installer Python, suivez les étapes ci-dessous :</p>
+<ol>
+<li>Rendez-vous sur le site officiel : <a href="https://www.python.org/downloads/">python.org</a>.</li>
+<li>Téléchargez la dernière version pour votre système d'exploitation.</li>
+<li>Suivez les instructions d'installation.</li>
+</ol>
+<h2 id="votre-premier-programme-python">Votre premier programme Python</h2>
+<p>Créez un fichier nommé <code>helloworld.py</code> et ajoutez le code suivant :</p>
+<pre><code class="language-python">print(&quot;hello world !&quot;)
+</code></pre>
+<p>Exécutez le programme dans votre terminal avec la commande :</p>
+<pre><code class="language-bash">python helloworld.py
+</code></pre>
+<h2 id="types-de-donnees">Types de données</h2>
+<p>Python supporte plusieurs types de données :</p>
+<ul>
+<li><strong>Entiers</strong> : <code>x = 5</code></li>
+<li><strong>Flottants</strong> : <code>y = 3.14</code></li>
+<li><strong>Chaînes de caractères</strong> : <code>name = "Alice"</code></li>
+<li><strong>Booléens</strong> : <code>is_active = True</code></li>
+</ul>
+<h2 id="structures-de-controle">Structures de contrôle</h2>
+<h3 id="conditionnelles">Conditionnelles</h3>
+<p>Les instructions conditionnelles permettent d'exécuter du code en fonction de certaines conditions.</p>
+<pre><code class="language-python">if x &gt; 10:
+    print(&quot;x est supérieur à 10&quot;)
+else:
+    print(&quot;x est inférieur ou égal à 10&quot;)
+</code></pre>
+<h3 id="boucles">Boucles</h3>
+<p>Les boucles permettent de répéter des actions.</p>
+<h4 id="boucle-for">Boucle <code>for</code></h4>
+<pre><code class="language-python">for i in range(5):
+    print(i)
+</code></pre>
+<h4 id="boucle-while">Boucle <code>while</code></h4>
+<pre><code class="language-python">while x &lt; 10:
+    x += 1
+</code></pre>
+<h2 id="fonctions">Fonctions</h2>
+<p>Les fonctions permettent de regrouper du code réutilisable.</p>
+<pre><code class="language-python">def saluer(nom):
+    print(f&quot;Bonjour, {nom} !&quot;)
+
+saluer(&quot;Alice&quot;)
+</code></pre>
+<h2 id="conclusion">Conclusion</h2>
+<p>Python est un langage puissant et accessible qui permet de réaliser une multitude d'applications. Ce TP a couvert les bases de Python, mais il existe encore beaucoup à explorer !</p>
+<h2 id="ressources-supplementaires">Ressources supplémentaires</h2>
+<ul>
+<li><a href="https://docs.python.org/3/">Documentation officielle de Python</a></li>
+<li><a href="https://www.w3schools.com/python/">W3Schools - Python Tutorial</a></li>
+<li><a href="https://www.codecademy.com/learn/learn-python-3">Codecademy - Learn Python</a></li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js"></script>
+        <script src="search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.6.1
+Build Date UTC : 2024-09-20 12:01:13.371304+00:00
+-->
